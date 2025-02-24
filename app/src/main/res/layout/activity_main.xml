@@ -63,6 +63,8 @@
         app:layout_constraintEnd_toEndOf="@+id/button02"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button02"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:onClick="lanzarJuego"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
